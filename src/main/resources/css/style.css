@@ -1,0 +1,53 @@
+.mainText:hover{
+    -fx-fill: white;
+    -fx-border-width: 5 5 5 5;
+    -fx-border-color: red;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+.scroll-bar:vertical {
+    -fx-pref-width: 25;
+
+}
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 10em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: grey;
+    -fx-background-radius: 10em;
+    -fx-fill-width: 20px;
+}
+
+
+.button:hover{
+    -fx-border-width: 0 0 0 5;
+    -fx-border-color: green;
+    -fx-text-fill: white;
+}
+.searchBox{
+    -fx-background-radius: 22;
+}
+
+.table-view{
+    -fx-background-color: #181818
+}
+.addPlaylist{
+    -fx-border-width: 0 0 0 0;
+    -fx-border-color: transparent;
+}

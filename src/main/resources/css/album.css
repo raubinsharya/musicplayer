@@ -1,0 +1,8 @@
+
+.vbox{
+    -fx-background-color:  #333333;
+}
+.vbox:hover{
+    -fx-opacity: 0.8;
+    -fx-background-color: #3a3a3a;
+}

@@ -1,0 +1,43 @@
+.button:hover{
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.03;
+    -fx-opacity: 0.90;
+}
+.button:pressed{
+    -fx-opacity: 1;
+}
+
+.jfx-slider {
+    -jfx-default-thumb: white;
+    -jfx-default-track: grey;
+}
+.jfx-slider .thumb{
+    -fx-background-color:transparent;
+    -fx-background-radius: 20;
+    -fx-background-insets: 1.2;
+}
+.jfx-slider:hover .thumb{
+    -fx-background-color:white;
+}
+
+.jfx-slider:hover{
+    -jfx-default-thumb: green;
+
+}
+.jfx-slider .track {
+    -fx-pref-height:5px;
+}
+.jfx-slider .animated-thumb {
+    -fx-background-color: null;
+}
+.jfx-slider .slider-value {
+    -fx-stroke: transparent;
+    -fx-font-size: 1;
+}
+
+.playlistImage:hover .btn{
+   visibility:true;
+}
+
+
+

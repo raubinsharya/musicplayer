@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Spotify_Clone_Maven:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spotify_Clone_Maven_jar</output-path>
+    <root id="archive" name="Spotify_Clone_Maven.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Spotify_Clone_Maven" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/jfoenix-8.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jaudiotagger/2.0.3/jaudiotagger-2.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/controlsfx/controlsfx/8.40.14/controlsfx-8.40.14.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
